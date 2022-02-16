@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .logo img{
+    width:208px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 63px;
+    margin: 0px -220px;
+  }
+   
+  .navbar{
+    height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+  }
+  .nav-list{
+     width: 60%;
+     display: flex;
+     align-items: center;
+     
+  }
+  .nav-list li{
+  list-style: none;
+  padding: 26px 25px;
+
+  }
+  .nav-list li a{
+  text-decoration: none;
+  color:black;
+  font-size: 14px;
+  }
+  .nav-list li a:hover{
+      color: gray;
+  
+  }
+  .rightnav{
+   width: 30%;
+  text-align: right;
+  
+  }
+  #search{
+   margin: 20px 5px;
+   border: 2px solid gray;
+   text-decoration: rgb(228, 11, 11);
+  border-radius: 6px;
+  }
+  
+.login{
+    display: flex;
+    height: 30px;
+    width: 123px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3rem ;
+}
+#navbar ul li a:hover{
+    color:rgb(192, 187, 187);
+    background-color:rgb(48, 43, 43);
+    z-index: -1;
+}
+.fristsection{
+    display: block;
+    height:75vh;
+   }
+
+.background{
+    background:  #F5F8FF;
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+.box-main{
+    display: flex;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px  100px;
+    max-width: 40%;
+    height: 100%;
+    }
+    .firsthalf{
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin: 0px 0px;
+       padding: 0px 0px;
+    }
+    .secondhalf{
+        width: 30%;
+    }
+    .secondhalf img{
+        display: block;
+        margin: auto;
+    }
+    .i0{
+        margin: 5px 600px;
+    }
+    .i1 img{
+        margin: -345px 285px;
+    }
+    .i3 img{
+        margin: 50px 320px;
+    }
+    .i2 img{
+        margin: -363px -53px;
+    }
+
+    .item1{
+        display: flex;
+        flex-direction: row;
+        margin: -710px 340px;
+    }
+    
+    .i4 img{
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .i5 img{
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .i6 img{
+        margin: 0px 0px;
+        
+    }
+    .i7 img{
+        display: block;
+        margin: -20px 0px;
+        
+    }
+    .i8 img{
+        margin: 25px 0px;
+        
+    }
+    .i9 img{
+        margin: 75px -35px;
+       
+    }
+    .i10 img{
+        margin: 0px 0px;
+    }
+
+
+    .text-big{
+        font-family:serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 200px 15px;
+
+
+    
+    }
+    .text-small{
+      font-size: 14px;
+      margin: -200px 15px;
+      padding: 0px 0px;
+    }
+    .education{
+      width: 100%;
+      height: 100%;
+    }
+    .btn{
+      font-size: 15px;
+      margin: 230px 60px;
+      padding: 15PX 45PX;
+      border: 3px solid red;
+      background: none;
+      color:black;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .section2 h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        margin: 45px 0px;
+    }
+    .section2 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -2.1rem 40rem ;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 20px 45px;
+       
+
+    }
+    .box1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    background: url("PICS/Vector (1).png") ;
+    background-size: cover;
+    height: 291.00006103515625px;
+    width: 575px;
+    left: 0px;
+    top: 0px;
+    border: 2px solid rgb(233, 200, 200);
+    border-radius: 6px;
+    margin: 20px 45px;
+
+    }
+    .box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url("PICS/Vector.png") ;
+        background-size: cover;
+        height: 291.00006103515625px;
+        width: 575px;
+        left: 0px;
+        top: 0px;
+        border: 2px solid rgb(236, 183, 183);
+        border-radius: 6px;
+        margin: 20px 45px;
+    
+    }
+    .centera{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box p{
+        font-size: 40px;
+    }
+
+
+.btn1{
+    background:rgb(236, 94, 94);
+    color: white;
+    height: 61px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 300px;
+    
+
+    }
+
+.section2 p{
+    display: flex;
+    justify-content: center;
+}
+.col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section3 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 45px 0px;
+}
+.img0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2.1rem 40rem ;
+}
+.img1{
+    margin: -26px -125px;
+}
+.img2{
+    margin: -344px 56px;
+}
+.img3{
+    margin: -250px 120px;
+}
+.right1{
+    width: 20%;
+    margin: 150px 0px;
+}
+
+.im1{
+   
+    margin: 100px 900px;
+}
+.im2{
+    margin: -190px 633px;
+}
+.im3{
+    margin: -520px 275px;
+}
+.im4{
+
+
+    margin: 280px 668px;
+}
+.right11{
+ display: flex;
+ margin: -15px 197px;
+ position:absolute;
+
+}
+.right11a{
+    margin: -305px 514px;
+
+}
+.right11a h1{
+    margin: 23px -95px;
+}
+.right11a p{
+    margin: -15px -93px;
+}
+.BT1{
+    margin: -155px 576px;
+}
+.h-primary{
+
+    font-size: 2.5rem;
+    padding: 40px;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.client-section::before{
+
+    content: "";
+    position: absolute;
+    background: #F5F8FF;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    opacity: 0.7;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+    padding: 11px 30px;
+}
+.clients-item{
+    display: flex;
+    flex-direction:column;
+    border-radius: 50px;
+}
+#clients img{
+    
+    height:  480px;
+    margin: 0px 16px;
+
+    
+}
+.clients-item p{
+    padding: 10px 65px;
+}
+.BT2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+}
+.foot{
+    background: whitesmoke;
+    border: 1px solid rgb(241, 229, 229);
+    margin: 60px 40px;
+}
+.foot1{
+    
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.foot1 ul li{
+
+    color: black;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.foot1 ul li a{
+    display: flex;
+    font-family:sans-serif;
+    font-size: 0.8rem;
+    color:black;
+    display: block;
+    margin: 0rem 7rem;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.ulfont{
+    text-decoration: solid black;
+    font-weight: bold;
+}
+.divf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(241, 229, 229);
+    height: 70px;
+    width: 100%;
+    margin: -3px 0px;
+}
+.logos{
+    display: flex;
+}
+
+.logo1 img{
+    height: 40px;
+    width: auto;
+    margin: 25px 145px;
+}
+.logo2{
+    margin: 9px 750px ;
+}
+.logo2 ul{
+    display: flex;
+   
+    
+}
+.logo2 ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    justify-content: center;
+    
+}
+.logo2 ul li a{
+    height: 40px ;
+    width: 40px;
+    display: block;
+    margin: 1rem 0.5rem;
+    text-decoration: none;
+}
+.fa{
+    font-size: 35px;
+    color: black
+
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50px;
+  }
+  .line{
+    width: 33px;
+    color: black;
+    border:  2px solid black;
+    border-radius: 5px ;
+    height: 3px;
+    margin: -13px;
+  }
+ 
+  .a1{
+      display: flex;
+  }
+  .a2{
+    display: flex;
+}
